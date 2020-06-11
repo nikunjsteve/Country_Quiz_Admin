@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_box"
+    android:backgroundTint="#F3F3F3"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Question"
+        android:drawableEnd="@drawable/ic_forward"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Answer"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>
